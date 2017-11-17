@@ -2,7 +2,7 @@ function love.load()
 -- our tiles
 	tile = {}
 	for i=0,1 do -- change 3 to the number of tile images minus 1.
-		tile[i] = love.graphics.newImage( "tile"..i..".png" )
+		tile[i] = love.graphics.newImage( "res/tile"..i..".png" )
 	end
 
 	love.graphics.setNewFont(12)
